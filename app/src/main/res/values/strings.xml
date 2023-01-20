@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Muki</string>
+    <string name="menu_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="getInfo">Get info</string>
+    <string name="photoPicker">Pick image</string>
+    <string name="sendPhoto">Send</string>
+    <string name="setting_key_mukiName">mukiName</string>
+
+    <string name="muki_id">24B981</string>
+    <string name="button_save">Save</string>
+    <string name="debugInfo_placeholder" />
+    <string name="toggle_color">Color</string>
+    <string name="hint_muki_id">Muki ID</string>
+    <string name="menu_help">Help</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="large_text">
+        Getting your Muki ID\n\n
+        Pour something hot (for example water) to your Muki. Open Bluetooth settings on your phone
+        and look for a device named "PAULIG_MUKI_XXXXXX". The XXXXXX part is your Muki ID, fill it
+        to the text box in app (and click save if you want the app to remember it).\n\n
+
+        "Get info" button\n\n
+        This action will try to connect to specified Muki and if successful, shows some technical
+        data below the button.\n\n
+
+        Choosing the color mode\n\n
+        The app offers 2 alternative ways of converting the image. "Color" mode generally yields
+        betters results for colored images and "BW" mode (Color off) for monochrome images like
+        symbols. Feel free to experiment, the change will be reflected next time you pick a new
+        image.\n\n
+
+        Picking the image\n\n
+        You can pick the image with "Pick image" button. After selecting image you can crop it if
+        you wish. If the preview looks good, you can send the image to Muki by pressing "Send".
+    </string>
+</resources>
